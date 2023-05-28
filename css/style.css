@@ -27,6 +27,10 @@ body {
   text-decoration: none;
 }
 .header-link.link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--primari-color);
 }
 .header-link.link:is(:hover, :focus) {
@@ -36,13 +40,13 @@ span {
   color: var(--primari-color);
 }
 
-.header {
+/* .header {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primari-color);
-}
+} */
 .item-studio {
   color: #422e33;
 }
@@ -70,6 +74,7 @@ address {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: var(--second-color);
 }
 .hero-btn {
@@ -107,6 +112,7 @@ address {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   color: var(--primari-color);
 }
 
@@ -119,6 +125,7 @@ address {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   color: var(--primari-color);
 }
 .ourteam-meny-item {
