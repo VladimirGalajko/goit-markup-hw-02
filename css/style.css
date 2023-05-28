@@ -183,12 +183,12 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--another-color);
+  background-color: var(--text-color-f);
+  cursor: pointer;
 }
 
 .listbtn.actv:is(:hover, :focus) {
-  background-color: var(--another-color);
-  color: var(--second-color);
+  background-color: #404bbf;
 }
 
 .rowpictures-title {
@@ -203,5 +203,5 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
