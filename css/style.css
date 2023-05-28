@@ -185,10 +185,12 @@ address {
   letter-spacing: 0.04em;
   background-color: var(--text-color-f);
   cursor: pointer;
+  color: var(--another-color);
 }
 
 .listbtn.actv:is(:hover, :focus) {
   background-color: #404bbf;
+  color: #ffffff;
 }
 
 .rowpictures-title {
@@ -205,3 +207,6 @@ address {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
+/* .prtfolio-link.link {
+  text-decoration: none;
+} */
