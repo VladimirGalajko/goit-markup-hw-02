@@ -186,11 +186,7 @@ address {
   color: var(--another-color);
 }
 
-.listbtn.all:is(:hover, :focus),
-.listbtn.web:is(:hover, :focus),
-.listbtn.app:is(:hover, :focus),
-.listbtn.desing:is(:hover, :focus),
-.listbtn.marketing:is(:hover, :focus) {
+.listbtn.actv:is(:hover, :focus) {
   background-color: var(--another-color);
   color: var(--second-color);
 }
