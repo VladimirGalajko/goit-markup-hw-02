@@ -4,8 +4,9 @@
   --another-color: #4d5ae5;
 }
 body {
-  font-family: 'Raleway', sans-serif;
-}
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: var(--second-color)
 a {
   text-decoration: none;
 }
