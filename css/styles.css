@@ -6,7 +6,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
-  background-color: var(--second-color);
+  background-color: #ffffff;
 }
 a {
   text-decoration: none;
@@ -19,11 +19,12 @@ ul {
 .header-navigation {
 } */
 .header-logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
   color: var(--primari-color);
 }
 .header-logo span {
@@ -144,7 +145,7 @@ ul {
   background-color: var(--primari-color);
 }
 .footer-link {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
